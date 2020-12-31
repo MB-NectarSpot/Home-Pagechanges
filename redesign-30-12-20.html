@@ -1,0 +1,2727 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <META HTTP-EQUIV='content-type' CONTENT='text/html; charset=UTF-8'>
+    </META>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Redesign | NectarSpot</title>
+    <meta property="og:description"
+        content="NectarSpot, a Google Partner Company, is top ranking and fastest growing marketing and design company specializing in web and mobile app design &amp; development, paid search optimization, marketing automation, email campaign management and voice services provider." />
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="shortcut icon" href="images/favicon.webp">
+    <link rel="stylesheet" type="text/css" href="redesign-30-12-20.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            var frm = $('.myform');
+
+            frm.submit(function (e) {
+
+                e.preventDefault();
+
+                $.ajax({
+                    type: frm.attr('method'),
+                    url: frm.attr('action'),
+                    data: frm.serialize(),
+                    success: function () {
+                        // console.log('Submission was successful.');
+                        $("#download-ebook").show();
+                        $(".hide-form").hide();
+                    },
+                    error: function () {
+                        // console.log('An error occurred.');
+                        // console.log(data);
+                        $("#download-ebook").show();
+                        $(".hide-form").hide();
+
+                    }
+                });
+            });
+        });
+
+    </script>
+    <style>
+        .border-none {
+            border: none !important;
+        }
+
+        #download-ebook {
+            display: none;
+        }
+
+        .grayscale {
+            filter: grayscale(1) !important;
+        }
+
+        .frmbg1 {
+            /* background-color: #f6f6f6; */
+            border-radius: 5px;
+            box-shadow: 0 4px 10px 0 hsla(0, 0%, 21%, .5);
+            padding: 1em 0;
+            margin: 40px auto 0 auto;
+            width: 100%;
+            /* border-top: 8px solid #002e5b; */
+        }
+
+        .book-btn {
+            display: none;
+        }
+
+        .down-btn {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- MAIN CONTENT START  -->
+    <div class="div1 ptb3 white-bg">
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-12 align-center full-wrapper">
+                    <div class="col-sm-3 col-xs-6">
+                        <a target="_blank" href="/" aria-label="Home Page">
+                            <img src="images/new-ns-clear-logo.png" alt="logo" class="logo-scale">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 mob-hide">
+                        <h1 class="main-head">
+                            Redesign Your Website for Performance </h1>
+
+
+
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <a target="_blank" href="/contact-us.php" class="contact-btn pull-right"
+                            aria-label="Contact Us">Contact ➞
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    <!-- STICKY CONTACT  -->
+    <div class="contact-sticky">
+        <span class="contact-details"></span>
+
+        <ul class="contact-info">
+            <li>
+                <a href="tel: +1 630 999 (7768)">
+                    Call</a>
+            </li>
+            <li>
+                <a href="mailto: hello@nectarspot.com">
+                    Email</a>
+            </li>
+            <li>
+                <a href="/contact-us.php">
+                    Contact</a>
+            </li>
+            <li>
+                <a href="#get-started" class="contact-btn">
+                    Get Started ➞</i></a>
+            </li>
+        </ul>
+    </div>
+    <div class="content2 white-bg">
+
+        <div class="container1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="typewrite mob-hide" data-period="2000"
+                        data-type='[ "Get Better Performance", "Get Higher Conversions", "Get Optimized SEO" ]'>
+                        <span class="wrap"></span>
+                    </a>
+                    <h1 class="main-head des-hide">
+                        Redesign Your Website <br>
+                        <a class="typewrite" data-period="2000"
+                            data-type='[ "Get Better Performance", "Get Higher Conversions", "Get Optimized SEO" ]'>
+                            <span class="wrap"></span>
+                        </a>
+                    </h1>
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <img src="images/redesign-above-fold.png" alt="main-img" class="w-75">
+
+
+
+                        <p class="con1-lf-tx w-69">Approx. 75% of people, will judge the credibility of your business
+                            based solely on the design of your website*</p>
+                        <center><a href="https://www.google.com/partners/agency?id=7535556500" target="_blank"
+                                rel="noopener" aria-label="Google Partner Agency">
+                                <div class="g-partnersbadge" data-agency-id="7535556500"></div>
+                            </a></center>
+
+                        <p class="con1-lf-tx w-69">NectarSpot is a certified Google Partner helping businesses to
+                            increase brand awareness and ROI</p>
+                        <center>
+                            <div class="strbtn"><a href="#features" aria-label="Get Started"><button
+                                        class="con3-btn mtb0">Learn More ➞</i></button></a>
+                                <a href="#redesign-process"><button class="con3-btn margin con3-mar  mtb0"
+                                        aria-label="Learn More">Redesign Process ➞</button></a>
+                            </div>
+                        </center>
+
+
+                    </div>
+
+                    <script type="text/javascript">
+                        var submitted = false;
+                    </script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                        onload="if(submitted) {window.location='https://nectarspot.com/thankyou';}"></iframe>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 mob-pad0" id="mlb2-1515046">
+                        <form action="https://app.getresponse.com/add_subscriber.html" method="post"
+                            class="validate frmbg mb45" target="hidden_iframe" onsubmit="submitted=true;">
+                            <div>
+                                <center>
+                                    <h2 class="form-head sign-head">Get E-Book</h2>
+                                    <h2 class="ads">Best Practices of Mobile Site Design - </h2>
+                                    <h2 class="ads">Delight Users & Drive Conversions</h2>
+                                    <img src="images/ebook-blue-resized.png" class="book-size">
+                                </center>
+                            </div>
+                            <div class="form-div">
+                                <input type="text" name="name" placeholder="Name" required>
+                                <input type="email" name="email" placeholder="Email" required>
+                                <!-- <input type="text" placeholder="Company (Optional)" name="fields[company]">
+                            <input type="text" placeholder="Phone (Optional)" name="custom_phone_number">
+                            <input type="text" placeholder="Best Time to Call (Optional)" name="custom_best_time_to_call">
+                            <input type="text" placeholder="Promo Code (Optional)" name="custom_promo_code">
+                            <input type="checkbox" name="" value="check" class="privacy" checked>
+                            <p class="box">By checking this box I agree to NectarSpot's <a target="_blank" href="https://nectarspot.com/privacy-policy-at-nectarspot-inc" class="policy"><u>Privacy Policy</u></a></p> -->
+                                <!-- List token -->
+                                <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+                                <input type="hidden" name="campaign_token" value="z9N4h" />
+                                <!-- Thank you page (optional) -->
+                                <input type="hidden" name="thankyou_url" value="https://nectarspot.com/thankyou" />
+                                <!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+                                <input type="hidden" name="start_day" value="0" />
+                                <!-- Forward form data to your page (optional) -->
+                                <input type="hidden" name="forward_data" value="post" />
+                                <input type="submit" value="Submit" class="submit">
+                                <input type="hidden" name="b_faf9cac71b7884aa7e5578d37_24ca84123b" tabindex="-1"
+                                    value="">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <!-- tabs -->
+    <a name="features"></a>
+    <div class="band-svg-content">
+        <div class="bg-band list-band">
+            <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+                </svg>
+                <div class="container-fluid full-wrapper">
+                    <div class="band mtb0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 site2-head">
+                                    <h2 class="white">Each of our Redesigned Web and Mobile Projects have the following:
+                                    </h2>
+                                    <div class="col-md-6">
+                                        <ul class="features">
+                                            <li><span></span>
+                                                <p>Higher Performance</p>
+                                            </li>
+                                            <li><span></span>
+                                                <p>Better Accessibility</p>
+                                            </li>
+                                            <li><span></span>
+                                                <p>Adherence to Best Practices</p>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="features">
+                                            <li><span></span>
+                                                <p>Higher SEO</p>
+                                            </li>
+                                            <li><span></span>
+                                                <p>PWA Enabled (Optional)</p>
+                                            </li>
+                                            <li><span></span>
+                                                <p>Secure, Scalable & Resilient - Hosted on Google Cloud (Optional)</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <center><a
+                                        href="https://nectarspot.com/downloads/Lighthouse%20Report%20Viewer%20for%20nearU%20Labs.pdf"
+                                        target="_blank" aria-label="Download Lighthouse Report"><button
+                                            class="white-btn">Download Lighthouse Report on Recent Client Work
+                                            ➞</button></a>
+                                </center>
+                                <center>
+
+                                    <button class="toggle-btn reg-btn SeeMore2">Find How Your Site is Measured
+                                        ?</button>
+                                </center>
+                                <div class="col-lg-12 toggle-div">
+                                    <h2 class="vis-head">Get visibility in how your site is measured in the following
+                                        categories: </h2>
+                                    <p class="visibilty-content mb2"></p>
+                                    <div class="col-md-6 mb2">
+                                        <div class="row">
+                                            <div class="col-sm-2 col-xs-2 mob-pad0">
+                                                <img src="images/speedometer.png" class="icon-img">
+                                            </div>
+                                            <div class="col-sm-10 col-xs-10">
+                                                <h4 class="measure-head">Performance</h4>
+                                                <p class="measure-para">Audits for metrics like first paint and time to
+                                                    interactive to determine lag.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb2">
+                                        <div class="row">
+                                            <div class="col-sm-2 col-xs-2 mob-pad0">
+                                                <img src="images/tick-inside-circle.png" class="icon-img">
+                                            </div>
+                                            <div class="col-sm-10 col-xs-10">
+                                                <h4 class="measure-head">Best Practices</h4>
+                                                <p class="measure-para">Looks for everything from HTTPS usage to correct
+                                                    image aspect ratios.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb2">
+                                        <div class="row">
+                                            <div class="col-sm-2 col-xs-2 mob-pad0">
+                                                <img src="images/magnifying-glass.png" class="icon-img">
+                                            </div>
+                                            <div class="col-sm-10 col-xs-10">
+                                                <h4 class="measure-head">SEO</h4>
+                                                <p class="measure-para">Checks for best practices to ensure your site is
+                                                    discoverable.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mb2">
+                                        <div class="row">
+                                            <div class="col-sm-2 col-xs-2 mob-pad0">
+                                                <img src="images/eye.png" class="icon-img">
+                                            </div>
+                                            <div class="col-sm-10 col-xs-10">
+                                                <h4 class="measure-head">Accessibility</h4>
+                                                <p class="measure-para">Checks for common issues that may prevent users
+                                                    from accessing your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="last-para">
+                                        <p>All tests are run using a simulated mobile device, via Lighthouse, throttled
+                                            to a fast 3G network & 4x CPU slowdown.</p>
+                                    </div>
+                                    <div class="new-form" id="mlb2-1578712">
+                                        <form action="https://app.getresponse.com/add_subscriber.html" method="post"
+                                            class="validate form2-validate" target="hidden_iframe"
+                                            onsubmit="submitted=true;">
+                                            <input type="text" placeholder="Web URL (For e.g: www.yourwebsite.com)"
+                                                name="custom_website_url" required>
+                                            <input type="email" placeholder="Email" class="" name="email" required>
+                                            <!-- List token -->
+                                            <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+                                            <input type="hidden" name="campaign_token" value="z91ef" />
+                                            <!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+                                            <input type="hidden" name="start_day" value="0" />
+                                            <input type="submit" value="Send My Audit Report" class="keep-btn"> <input
+                                                type="hidden" name="b_faf9cac71b7884aa7e5578d37_24ca84123b"
+                                                tabindex="-1" value="">
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="mt2">
+
+        <div class="bg-svg">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+            <div class="site2-head pb1">
+                <a name="award-2019"></a>
+                <center>
+                    <h2>Our Client Work Gets us <span class="uline"> Award(s)</span> and <span class="uline">
+                            Recognition</span></h2>
+                    <!-- <h3 class="sub-head">  We are humbled to receive  'Golden Trumpet' award </h3> -->
+                    <div class="container container-border">
+                        <p class="tru-p1">NectarSpot Inc. is an award winning company and has been honored with 'Golden
+                            Trumpet Award' at PCC's (Publicity Club of Chicago) 2019 </p>
+                        <p class="tru-p1">"Web Application built for Performance, Usability and Conversion"
+                        </p>
+                    </div>
+                </center>
+            </div>
+            <a name="award"></a>
+            <div id="awd" class="bg-shape">
+
+                <div class="container container2">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pb3 align-center flex-direction mob-pad0">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mob-pad0">
+                            <img src="images/nearu-lighthouse-report.png" alt="awards" class="tru-awd">
+                            <a href="https://nectarspot.com/downloads/Lighthouse%20Report%20Viewer%20for%20nearU%20Labs.pdf"
+                                target="_blank" class="contact-btn margin-auto">Download Full Lighthouse Report ➞</a>
+                        </div>
+                        <div class="col-md-2 col-sm-12 col-xs-12">
+                            <center><i class="fas fa-angle-double-right lead-arrow tablet-hide"></i>
+                                <i class="fas fa-angle-double-down lead-arrow tablet-show"></i>
+                            </center>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12 mob-pad0">
+                            <img src="images/triump-2019.png" alt="awards-triump" class="awd-lht">
+                            <a href="#watch-video" onclick="playVid()" class="contact-btn margin-auto">Award Ceremony
+                                Video ➞</a>
+                            <!-- Modal -->
+                            <div id="watch-video" class="testimonials-overlay">
+                                <div class="testimonials-popup height-noscroll">
+                                    <a class="testimonials-close" onclick="pauseVid()" href="#"><i
+                                            class="fas fa-times-circle"></i></a>
+                                    <video id="myVideo" controls muted>
+                                        <source src="images/trumphet-award-ceremony.mp4" type="video/mp4">
+
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+	c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+	c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="awd-rec pt3">
+        <div class="site2-head pb3">
+            <h2>Other Awards & Recognition</h2>
+        </div>
+        <div class="container1 main-carousal1">
+            <div class="site-con">
+                <div class="ptnr">
+                    <div class="con9-digi">
+                        <img src="images/digitalmar.png">
+                    </div>
+                    <div class="con9-three">
+                        <img src="images/threerated.png">
+                    </div>
+                    <div class="con9-google">
+                        <img src="images/new-award.png">
+                    </div>
+                    <div class="con9-three con9-three-res1">
+                        <img src="images/top-seo-1.jpg">
+                    </div>
+                    <div class="con9-three con9-three-res2">
+                        <img src="images/behancenectarspot-1.png">
+                    </div>
+                    <div class="con9-threes mobile-bt">
+                        <img src="images/alexa-new.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container res-carousal1">
+        <div class="carousel">
+            <div class="carousel-prev">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="carousel-next">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <ul class="carousel-pagination">
+                <li class="carousel-bullet"></li>
+                <li class="carousel-bullet"></li>
+                <li class="carousel-bullet"></li>
+                <li class="carousel-bullet"></li>
+                <li class="carousel-bullet"></li>
+                <li class="carousel-bullet"></li>
+            </ul>
+            <ul class="carousel-container">
+                <li class="carousel-item">
+                    <div class="item-1">
+                        <center>
+                            <img src="images/digitalmar.png">
+
+                        </center>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="item-2">
+
+                        <center>
+                            <img src="images/threerated.png">
+
+                        </center>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="item-3">
+                        <center>
+                            <img src="images/new-award.png">
+
+                        </center>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="item-4">
+                        <center>
+                            <img src="images/top-seo-1.jpg">
+
+                        </center>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="item-5">
+                        <center>
+                            <img src="images/behancenectarspot-1.png">
+
+                        </center>
+                    </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="item-6">
+                        <center>
+                            <img src="images/alexa-new.png">
+
+                        </center>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <a name="testimonials"></a>
+    <div class="test-overlay">
+        <div class="bg-svg bg-svg-ch">
+            <div class="overlay"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+            <div class="site2-head pb1">
+                <center>
+                    <h2>Testimonials</h2>
+
+            </div>
+
+            <div class="container pb3">
+                <div class="testimonial-main">
+                    <div class="testi-prev"></div>
+                    <div class="testi-next"></div>
+                    <ul class="testi-pagination">
+
+                    </ul>
+                    <ul class="testi-container">
+                        <li class="testi-item">
+                            <div class="item-1">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 full-wrapper">
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ts1">
+                                        <center>
+                                            <div class="pro-p">
+                                                <div class="img-bg">
+                                                    <!--<img class="test-img roy" src="images/roy-2.webp" width="180" height="149" alt="roy">
+                                                    -->
+                                                    <picture>
+                                                        <source srcset="images/roy-2.webp" type="image/webp">
+                                                        <source srcset="images/roy-2.png" type="image/png">
+                                                        <img class="test-img roy" src="images/roy-2.png" width="180"
+                                                            height="149" alt="roy">
+                                                    </picture>
+                                                </div>
+                                                <div class="des-img">
+                                                    <h4>– Roy Lingam </h4>
+
+                                                    <h4> CEO, Delphi USMLE, Chicago</h4>
+                                                </div>
+                                                <p>NectarSpot team successfully re-branded and revamped our old website
+                                                    delphiusmle. com to a fast loading and aesthetically pleasing within
+                                                    a short time frame of four weeks. </p>
+
+                                                <a class="test-btn" href="#roy">Read More ➞</a>
+                                                <!-- Modal -->
+                                                <div id="roy" class="testimonials-overlay">
+                                                    <div class="testimonials-popup">
+                                                        <a class="testimonials-close" href="#"><i
+                                                                class="fas fa-times-circle"></i></a>
+                                                        <div class="testimonials-content">
+                                                            <!--<img class="border-round" src="images/roy-2.webp" width="180" height="149" alt="roy">-->
+                                                            <picture>
+                                                                <source srcset="images/roy-2.webp" type="image/webp">
+                                                                <source srcset="images/roy-2.png" type="image/png">
+                                                                <img class="border-round" src="images/roy-2.png"
+                                                                    width="180" height="149" alt="roy">
+                                                            </picture>
+                                                            <h4>– Roy Lingam </h4>
+
+                                                            <h4> CEO, Delphi USMLE, Chicago</h4>
+                                                            <p class="testimonials-model-para">NectarSpot team
+                                                                successfully re-branded and revamped our old website
+                                                                delphiusmle.com to a fast loading and aesthetically
+                                                                pleasing within a short time frame of four weeks.
+                                                                NectarSpot designers
+                                                                and developers created a distinct UI/UX landing pages
+                                                                that communicates our brand as an established brand
+                                                                identity helping us to get more conversions. Our end
+                                                                users appreciate the site’s
+                                                                unique and polished presentation through an informative,
+                                                                well laid-out content and beautifully designed pages
+                                                                that helps a seamless interaction . The team is
+                                                                extremely organized and communicative
+                                                                and working with their team was seamless and highly
+                                                                collaborative. Their team is both technically and
+                                                                creatively talented. After creating relevant landing
+                                                                pages and revamping the entire site,
+                                                                NectarSpot is helping us to generate qualified leads
+                                                                through Google Ads campaign. We see a definitive
+                                                                increase in key web metrics such as higher conversion
+                                                                rate, lower bounce rate and higher
+                                                                engagement. We would highly recommend NectarSpot to
+                                                                anyone looking to up-brand their digital identity and
+                                                                get qualified leads.</p>
+                                                            <a href="#get-started" aria-label="Get Started"
+                                                                class="test-btn width-auto">Get Started ➞</a>
+                                                            <center><a class="testimonials-close2" href="#"><i
+                                                                        class="fas fa-times-circle"></i></a></center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </center>
+                                    </div>
+
+
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ts1">
+                                        <center>
+                                            <div class="pro-p">
+                                                <div class="img-bg">
+                                                    <!--<img class="test-img ryan" src="images/ryan.webp" width="180" height="149" alt="roy">-->
+                                                    <picture>
+                                                        <source srcset="images/ryan.webp" type="image/webp">
+                                                        <source srcset="images/ryan.jpg" type="image/jpg">
+                                                        <img class="test-img ryan" src="images/ryan.jpg" width="180"
+                                                            height="149" alt="roy">
+                                                    </picture>
+                                                </div>
+                                                <div class="des-img">
+                                                    <h4>– Ryan Frederickson</h4>
+
+                                                    <h4> CEO, ArT Wine Preserver, Chicago</h4>
+                                                </div>
+                                                <p>NectarSpot team executed the Quick and solid build of AMP website.
+                                                    Not afraid of small tweaks here and there. </p> <a href="#ryan"
+                                                    class="test-btn" aria-label="strategy-plan">Read More ➞</a>
+                                                <!-- Modal -->
+                                                <div id="ryan" class="testimonials-overlay">
+                                                    <div class="testimonials-popup">
+                                                        <a class="testimonials-close" href="#"><i
+                                                                class="fas fa-times-circle"></i></a>
+                                                        <div class="testimonials-content">
+                                                            <!--<img class="border-round" src="images/ryan.webp" width="180" height="149" alt="roy">
+                                                            -->
+                                                            <picture>
+                                                                <source srcset="images/ryan.webp" type="image/webp">
+                                                                <source srcset="images/ryan.jpg" type="image/jpg">
+                                                                <img class="border-round" src="images/ryan.jpg"
+                                                                    width="180" height="149" alt="roy">
+                                                            </picture>
+                                                            <h4>– Ryan Frederickson</h4>
+
+                                                            <h4> CEO, ArT Wine Preserver, Chicago</h4>
+                                                            <p class="testimonials-model-para">NectarSpot team executed
+                                                                the Quick and solid build of AMP website. Not afraid of
+                                                                small tweaks here and there. The team has, from the
+                                                                beginning of project, focus on conversion and provided a
+                                                                seamless
+                                                                workflow for my prospects to visit, educate and finally
+                                                                purchase on my e-commerce portal. They provided design,
+                                                                development on AMP framework and helped to host
+                                                                e-commerce portal on scalable
+                                                                and secure google cloud. We are looking forward to
+                                                                working with them in future for other projects as well.
+                                                            </p>
+                                                            <a href="#get-started" aria-label="Get Started"
+                                                                class="test-btn width-auto">Get Started ➞</a>
+                                                            <center><a class="testimonials-close2" href="#"><i
+                                                                        class="fas fa-times-circle"></i></a></center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </center>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ts1">
+                                        <center>
+                                            <div class="pro-p">
+                                                <div class="img-bg">
+                                                    <!-- <img class="test-img santosh" src="images/santosh.webp" width="180" height="149" alt="roy">
+                                                    -->
+                                                    <picture>
+                                                        <source srcset="images/santosh.webp" type="image/webp">
+                                                        <source srcset="images/santosh.jpg" type="image/jpg">
+                                                        <img class="test-img santosh" src="images/santosh.jpg"
+                                                            width="180" height="149" alt="roy">
+                                                    </picture>
+                                                </div>
+                                                <div class="des-img">
+                                                    <h4>– S Arcot</h4>
+                                                    <h4> CEO, HopperStand, Inc, Chicago</h4>
+                                                </div>
+                                                <p>For our brand new HopperStand product, we wanted a cool-looking,
+                                                    fast-loading website. I am happy to have found NectarSpot as the
+                                                    company to deliver to our specific needs. </p> <a href="#santosh"
+                                                    class="test-btn" aria-label="strategy-plan">Read More ➞</a>
+                                                <!-- Modal -->
+                                                <div id="santosh" class="testimonials-overlay">
+                                                    <div class="testimonials-popup">
+                                                        <a class="testimonials-close" href="#"><i
+                                                                class="fas fa-times-circle"></i></a>
+                                                        <div class="testimonials-content">
+                                                            <!--<img class="border-round" src="images/santosh.webp" width="180" height="149" alt="roy">
+                                                            -->
+                                                            <picture>
+                                                                <source srcset="images/santosh.webp" type="image/webp">
+                                                                <source srcset="images/santosh.jpg" type="image/jpg">
+                                                                <img class="border-round" src="images/santosh.jpg"
+                                                                    width="180" height="149" alt="roy">
+                                                            </picture>
+                                                            <h4>– S Arcot</h4>
+                                                            <h4> CEO, HopperStand, Inc, Chicago</h4>
+                                                            <p class="testimonials-model-para">For our brand new
+                                                                HopperStand product, we wanted a cool-looking,
+                                                                fast-loading website. I am happy to have found
+                                                                NectarSpot as the company to deliver to our specific
+                                                                needs. Their team worked with
+                                                                us closely following a pre-defined plan and executed the
+                                                                project flawlessly and efficiently! We would highly
+                                                                recommend NectarSpot for their professionalism,
+                                                                attention to detail, and desire
+                                                                to see our project succeed using the latest in web
+                                                                design technologies - in our case, AMP (Accelerated
+                                                                Mobile Pages) framework. In addition, we are working
+                                                                with them on marketing projects
+                                                                related to lead generation on social media and paid
+                                                                search channels. We can confidently say that we can
+                                                                count on them to consistently deliver us results and
+                                                                exceed all expectations.</p>
+                                                            <a href="#get-started" aria-label="Get Started"
+                                                                class="test-btn width-auto">Get Started <i
+                                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                                            <center><a class="testimonials-close2" href="#"><i
+                                                                        class="fas fa-times-circle"></i></a></center>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="happy-client ptb-5">
+        <div class="container">
+            <div class="site2-head pb3 background-white">
+                <h2>Our Happy Client</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 align-center flex-direction column-reverse full-wrapper">
+                    <div class="col-md-6 t-align-center">
+                        <p class="client-text"><sup class="client-quote"><i class="fas fa-quote-left"></i></sup> We have
+                            been using NectarSpot for about two years now.
+                            NectarSpot go above and beyond with their services they provide.
+                            They helped us everything from layout and design, speed of the landing pages, retargeting,
+                            A/B testing and also advised us each month regarding the budget strategies.
+                            I'm happy with their service. <sup class="client-quote"><i
+                                    class="fas fa-quote-right"></i></sup></p>
+                        <div class="des-img client-name">
+                            <h4>Ramon Mascarenas, </h4>
+
+                            <h4> CEO, Palmleaf Massage, Chicago</h4>
+                        </div>
+                        <a href="#get-started" aria-label="Get Started" class="test-btn inlne-blck">Get Started ➞</a>
+                    </div>
+                    <div class="col-md-6">
+                        <video id="video_background" class="video-ram" onclick="enableMute();" controls autoplay muted
+                            loop>
+
+                            <source src="palm-leaf-testimonial.mp4" type="">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="band-svg-content">
+        <div class="bg-band">
+            <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+                </svg>
+                <div class="container-fluid full-wrapper">
+                    <div class="band">
+                        <div class="container container2">
+                            <div class="row">
+                                <div class="col-xs-12 rpl0">
+                                    <center>
+                                        <h4 class="nwbndtxt default">Get Affordable Web Design and Development Services
+                                            (100% Satisfaction Guaranteed) </h4>
+                                    </center>
+                                    <center>
+                                        <div class="allbtn">
+                                            <a href="/our-work" target="_blank" class="button margin"
+                                                aria-label="View Our Case Studies">Case Studies ➞ </a> <a href="/start"
+                                                target="_blank" class="button prj"
+                                                aria-label="Fill Our Contact Form">Start Project ➞ </a>
+
+
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="redesign-process"></a>
+    <div class="site2-head pb3 pt3 background-white">
+        <h2>Redesign Process</h2>
+    </div>
+    <div class="container-fluid full-wrapper prcs pb145 background-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-4 desk">
+                        <!--<img src="images/discuss-issue.webp" width="128" height="128" alt="discuss-issue">
+                        -->
+                        <picture>
+                            <source srcset="images/discuss-issue.webp" type="image/webp">
+                            <source srcset="images/discuss-issue.png" type="image/png">
+                            <img src="images/discuss-issue.png" width="128" height="128" alt="discuss-issue">
+                        </picture>
+                        <center>
+                            <h4>01</h4>
+                            <h3>Strategy & Planning</h3>
+                            <div class="pro-p">
+                                <p>We'll discuss your project with you to make sure we have all the requirements and a
+                                    firm understanding of what you need done. </p>
+                                <a href="#strategy-plan" aria-label="Strategy & Planning"
+                                    class="test-btn des-hide tablet-show">Learn More ➞</a>
+                                <span class="test-btn strategy-plan-trigger tablet-hide">Learn More ➞</span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="col-md-4 mbcon">
+                        <h4 class="mbnum">01</h4>
+                        <!--<img src="images/discuss-issue.webp" width="128" height="128" alt="discuss-issue">-->
+                        <picture>
+                            <source srcset="images/discuss-issue.webp" type="image/webp">
+                            <source srcset="images/discuss-issue.png" type="image/png">
+                            <img src="images/discuss-issue.png" width="128" height="128" alt="discuss-issue">
+                        </picture>
+
+                        <center>
+                            <h3>Strategy & Planning</h3>
+                            <div class="pro-p">
+                                <p>We'll discuss your project with you to make sure we have all the requirements and a
+                                    firm understanding of what you need done. </p>
+                                <span class="test-btn strategy-plan-trigger">Learn More ➞</span>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="col-md-4 pro pro2 desk">
+                        <!--<img src="images/web-design.webp" width="128" height="128" alt="web-design">
+                        -->
+                        <picture>
+                            <source srcset="images/web-design.webp" type="image/webp">
+                            <source srcset="images/web-design.png" type="image/png">
+                            <img src="images/web-design.png" width="128" height="128" alt="web-design">
+                        </picture>
+                        <center>
+                            <h4>02</h4>
+                            <h3>Design & Development</h3>
+                            <div class="pro-p">
+                                <p>We work towards creating Sitemap, Wireframe, Page Layouts, Visual Identity and
+                                    developing HTML/CSS/Javascript/ web and mobile page prototypes. </p>
+                                <a href="#design-development" aria-label="Design & Development"
+                                    class="test-btn des-hide tablet-show">Learn More ➞</a>
+                                <span class="test-btn design-trigger tablet-hide">Learn More ➞</span>
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="col-md-4 pro pro2 mbcon">
+                        <h4 class="mbnum">02</h4>
+                        <!--<img src="images/web-design.webp" width="128" height="128" alt="web-design">-->
+                        <picture>
+                            <source srcset="images/web-design.webp" type="image/webp">
+                            <source srcset="images/web-design.png" type="image/png">
+                            <img src="images/web-design.png" width="128" height="128" alt="web-design">
+                        </picture>
+                        <center>
+                            <h3>Design & Development</h3>
+                            <div class="pro-p">
+                                <p>We work towards creating Sitemap, Wireframe, Page Layouts, Visual Identity and
+                                    developing HTML/CSS/Javascript/ web and mobile page prototypes. </p>
+                                <span class="test-btn design-trigger">Learn More ➞</span>
+                            </div>
+                        </center>
+
+                    </div>
+
+                    <div class="col-md-4 pro pro3 desk">
+                        <!--<img src="images/startup.webp" width="128" height="128" alt="startup">-->
+                        <picture>
+                            <source srcset="images/startup.webp" type="image/webp">
+                            <source srcset="images/startup.png" type="image/png">
+                            <img src="images/startup.png" width="128" height="128" alt="startup">
+                        </picture>
+                        <center>
+                            <h4>03</h4>
+                            <h3>Test & Delivery</h3>
+                            <div class="pro-p">
+                                <p>We test every link, forms, scripts, run a spell-check, and run validates to check if
+                                    code follows the AMP framework to make sure we deliver a pixel perfect application.
+                                </p>
+                                <a href="#test-delivery" aria-label="Test & Delivery"
+                                    class="test-btn des-hide tablet-show">Learn More ➞</a>
+                                <span class="test-btn test-trigger tablet-hide">Learn More ➞</span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="col-md-4 pro pro3 mbcon">
+                        <h4 class="mbnum">03</h4>
+                        <!--<img src="images/startup.webp" width="128" height="128" alt="startup">-->
+                        <picture>
+                            <source srcset="images/startup.webp" type="image/webp">
+                            <source srcset="images/startup.png" type="image/png">
+                            <img src="images/startup.png" width="128" height="128" alt="startup">
+                        </picture>
+                        <center>
+                            <h3>Test & Delivery</h3>
+                            <div class="pro-p">
+                                <p>We test every link, forms, scripts, run a spell-check, and run validates to check if
+                                    code follows the AMP framework to make sure we deliver a pixel perfect application.
+                                </p>
+                                <span class="test-btn test-trigger">Learn More ➞</span>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="clear-fix"></div>
+        <div class="bg-svg tablet-hide" id="strategy-plan-div">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+
+            <div class="pro-inn desk strat pl-st">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center column-reverse site2-head">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 start">
+                                <h2 class="txt-left mob-hide-text">Strategy & Planning</h2>
+                                <p class="per"> Planning involves good understanding of Company or Business it is
+                                    created for, how can we help to achieve their goals and plan for the website.</p>
+                                <ul>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Purpose</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Content Brief</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Competitor Analysis</span>
+                                    </li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Target Audience</span>
+                                    </li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Brand Attributes</span>
+                                    </li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Site-Map</span></li>
+                                </ul>
+                                <!-- <a href="#design-development" aria-label="design-development"> <button type="button" class="black">Next <i class="fas fa-chevron-circle-right learn"></i></button> </a> -->
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb3">
+                                <h2 class="pro-inn-sub pb3">Strategy & Planning</h2>
+                                <div class="chart">
+
+                                    <!--<img src="images/chart.webp" width="1280" height="1280" alt="plan" class="">-->
+                                    <picture>
+                                        <source srcset="images/chart.webp" type="image/webp">
+                                        <source srcset="images/chart.jpg" type="image/jpg">
+                                        <img src="images/chart.jpg" width="1280" height="1280" alt="plan" class="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="bg-svg tablet-hide" id="design-div">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                        c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                        c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+        </svg>
+        <div class="pro-inn desk">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center flex-direction site2-head">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb3">
+                            <h2 class="pro-inn-sub pb3">Design & Development</h3>
+                                <div class="chart">
+                                    <!--<img src="images/blur.webp" width="1280" height="1280" alt="partners">-->
+                                    <picture>
+                                        <source srcset="images/blur.webp" type="image/webp">
+                                        <source srcset="images/blur.jpg" type="image/jpg">
+                                        <img src="images/blur.jpg" width="1280" height="1280" alt="partners">
+                                    </picture>
+                                </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12  des-dev">
+                            <h2 class="txt-left mob-hide-text">Design & Development</h2>
+                            <p class="per">Design Phase is to determine the aesthetics of your site where the designer
+                                will gather all the prototype of graphic elements and use them to create functional
+                                site.We cover the following during this Phase:</p>
+                            <ul>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Visual Representation</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Mockups as required</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Platform (CMS & Custom)</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">HTML & CSS (Valid Code)</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Integrations</li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Database</span></li>
+                                <li><i class="fas fa-check-square"></i><span class="clnt"><span>Reviews and Approval
+                                        </span></li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Maintain Consistency</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="#test-delvry" aria-label="test-delvry"> <button type="button" class="black">Next <i class="fas fa-chevron-circle-right learn"></i></button> </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="bg-svg tablet-hide" id="test-div">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+            <div class="pro-inn desk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center column-reverse site2-head">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <h2 class="txt-left mob-hide-text">Test & Delivery</h2>
+                                <p class="per">Final Phase is to test your website which should meet the development
+                                    standards.
+                                </p>
+                                <ul>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Responsive</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">SEO</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">URL Check</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Test Forms</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Test Scripts</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">KeyWords &
+                                            Spell-Check</span></li>
+                                </ul>
+                                <!-- <a href="#get-started" aria-label="cont2"> <button type="button" class="black">Get
+                                        Started <i class="fas fa-chevron-circle-right learn"></i></button> </a> -->
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb3">
+                                <h3 class="pro-inn-sub pb3">Test & Delivery</h3>
+                                <div class="chart">
+                                    <!-- <img src="images/analysis.webp" width="1280" height="1280" alt="ads-beverage-black-coffee-33972">
+                                -->
+                                    <picture>
+                                        <source srcset="images/analysis.webp" type="image/webp">
+                                        <source srcset="images/analysis.jpg" type="image/jpg">
+                                        <img src="images/analysis.jpg" width="1280" height="1280"
+                                            alt="ads-beverage-black-coffee-33972">
+                                    </picture>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a name="strategy-plan"></a>
+    <div>
+        <div class="clear-fix"></div>
+        <div class="bg-svg des-hide tablet-show">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+
+            <div class="pro-inn desk strat pl-st">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center column-reverse site2-head">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 start">
+                                <h2 class="txt-left mob-hide-text">Strategy & Planning</h2>
+                                <p class="per"> Planning involves good understanding of Company or Business it is
+                                    created for, how can we help to achieve their goals and plan for the website.</p>
+                                <ul>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Purpose</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Content Brief</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Competitor Analysis</span>
+                                    </li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Target Audience</span>
+                                    </li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Brand Attributes</span>
+                                    </li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Site-Map</span></li>
+                                </ul>
+                                <a href="#design-development" aria-label="design-development"> <button type="button"
+                                        class="black">Next ➞ </i></button>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb3">
+                                <h2 class="pro-inn-sub pb3">Strategy & Planning</h2>
+                                <div class="chart">
+
+                                    <!--<img src="images/chart.webp" width="1280" height="1280" alt="plan" class="">-->
+                                    <picture>
+                                        <source srcset="images/chart.webp" type="image/webp">
+                                        <source srcset="images/chart.jpg" type="image/jpg">
+                                        <img src="images/chart.jpg" width="1280" height="1280" alt="plan" class="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+                    c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+                    c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+    <a name="design-development"></a>
+    <div class="bg-svg des-hide tablet-show white-bg">
+        <svg class="white-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                        c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                        c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+        </svg>
+        <div class="pro-inn desk white-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center flex-direction site2-head">
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb3">
+                            <h2 class="pro-inn-sub pb3">Design & Development</h3>
+                                <div class="chart">
+                                    <!--<img src="images/blur.webp" width="1280" height="1280" alt="partners">-->
+                                    <picture>
+                                        <source srcset="images/blur.webp" type="image/webp">
+                                        <source srcset="images/blur.jpg" type="image/jpg">
+                                        <img src="images/blur.jpg" width="1280" height="1280" alt="partners">
+                                    </picture>
+                                </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12  des-dev">
+                            <h2 class="txt-left mob-hide-text">Design & Development</h2>
+                            <p class="per">Design Phase is to determine the aesthetics of your site where the designer
+                                will gather all the prototype of graphic elements and use them to create functional
+                                site.We cover the following during this Phase:</p>
+                            <ul>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Visual Representation</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Mockups as required</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Platform (CMS & Custom)</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">HTML & CSS (Valid Code)</span>
+                                </li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Integrations</li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Database</span></li>
+                                <li><i class="fas fa-check-square"></i><span class="clnt"><span>Reviews and Approval
+                                        </span></li>
+                                <li><i class="fas fa-check-square"></i><span class="purp">Maintain Consistency</span>
+                                </li>
+                            </ul>
+                            <a href="#test-delivery" aria-label="test-delivery"> <button type="button"
+                                    class="black">Next ➞</button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="test-delivery"></a>
+    <div>
+        <div class="bg-svg des-hide tablet-show">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                            c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                            c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+            <div class="pro-inn desk">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 align-center column-reverse site2-head">
+                            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                <h2 class="txt-left mob-hide-text">Test & Delivery</h2>
+                                <p class="per">Final Phase is to test your website which should meet the development
+                                    standards.
+                                </p>
+                                <ul>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Responsive</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">SEO</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">URL Check</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Test Forms</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">Test Scripts</span></li>
+                                    <li><i class="fas fa-check-square"></i><span class="purp">KeyWords &
+                                            Spell-Check</span></li>
+                                </ul>
+                                <a href="#get-started" aria-label="cont2"> <button type="button" class="black">Get
+                                        Started <i class="fas fa-chevron-circle-right learn"></i></button> </a>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 pb3">
+                                <h3 class="pro-inn-sub pb3">Test & Delivery</h3>
+                                <div class="chart">
+                                    <!-- <img src="images/analysis.webp" width="1280" height="1280" alt="ads-beverage-black-coffee-33972">-->
+                                    <picture>
+                                        <source srcset="images/analysis.webp" type="image/webp">
+                                        <source srcset="images/analysis.jpg" type="image/jpg">
+                                        <img src="images/analysis.jpg" width="1280" height="1280"
+                                            alt="ads-beverage-black-coffee-33972">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="responsive-tab">
+        <div class="cont2 background-white" id="cont2">
+            <div class="site2">
+                <div class="wrapper">
+                    <center>
+                        <h2 class="sent"> Design & Development Best Practices</h2>
+                        <div class="slide"> <span>
+                                <h1>"Focus"</h1>
+                            </span> <span>
+                                <h1>"Simplify"</h1>
+                            </span> <span>
+                                <h1>"Organize"</h1>
+                            </span></div>
+                    </center>
+                </div>
+                <div class="container">
+                    <div class="row">
+
+
+                        <div class="col-lg-12 pb3 align-center flex-direction">
+                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                <img class="camera" src="images/camera.jpg" alt="camera">
+                            </div>
+                            <!-- <div class="col-lg-1"></div> -->
+                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                                <div class="con2-right animated pb2">
+                                    <div id="tabs" class="jquery-tabs mob-hide">
+                                        <ul>
+                                            <li><a href="#tabs-1" class="j-tabs-a">Analyse</a></li>
+                                            <li><a href="#tabs-2" class="j-tabs-a">Content Plan</a></li>
+                                            <li><a href="#tabs-3" class="j-tabs-a">User Experience</a></li>
+                                            <li><a href="#tabs-4" class="j-tabs-a">Wireframing</a></li>
+                                            <li><a href="#tabs-5" class="j-tabs-a">Branding</a></li>
+                                            <li><a href="#tabs-6" class="j-tabs-a">Optimize SEO</a></li>
+                                        </ul>
+                                        <div class="jq-tab-content">
+                                            <div id="tabs-1" class="j-tab-content">
+                                                <p>Analyze Your Current Site to know what needs your website to
+                                                    redesign.You need to walk through the website page by page and mark
+                                                    out all the design, content or converstion path to be redesign or
+                                                    not.</p>
+                                            </div>
+                                            <div id="tabs-2" class="j-tab-content">
+                                                <p>We will figure out what content deserves to be a unique for your
+                                                    website or business.Make your website redesign to complement content
+                                                    and display it most efficiently and effectively.</p>
+                                            </div>
+                                            <div id="tabs-3" class="j-tab-content">
+                                                <p>Building a website that offers the best user experience should be
+                                                    your primary goal. Rely on all involved from the beginning to get
+                                                    the best ideas from a variety of perspectives. More diverse
+                                                    perspectives
+                                                    mean a much better website.</p>
+                                            </div>
+                                            <div id="tabs-4" class="j-tab-content">
+                                                <p>Wireframing can serve as an excellent foundation allowing you to
+                                                    establish the information hierarchy, architecture, and imagery of
+                                                    your website.it helps you to save money and time and focuses on the
+                                                    path
+                                                    to redesign for long run.</p>
+                                            </div>
+                                            <div id="tabs-5" class="j-tab-content">
+                                                <p>Make sure that everything you redesign should be consistent and
+                                                    showcase your company's brand vision.</p>
+                                            </div>
+                                            <div id="tabs-6" class="j-tab-content">
+                                                <p>Having a good SEO strategy is very important if you want visitors to
+                                                    come to your site through search engines and increase leads,
+                                                    conversions and sales.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Bootstrap Accordion -->
+                                    <div id="accordion" class="des-hide">
+                                        <h3>Analyse</h3>
+                                        <div class="j-tab-content">
+                                            <p>Analyze Your Current Site to know what needs your website to redesign.You
+                                                need to walk through the website page by page and mark out all the
+                                                design, content or converstion path to be redesign or not.</p>
+                                        </div>
+
+                                        <h3>Content Plan</h3>
+                                        <div class="j-tab-content">
+                                            <p>We will figure out what content deserves to be a unique for your website
+                                                or business.Make your website redesign to complement content and display
+                                                it most efficiently and effectively.</p>
+                                        </div>
+                                        <h3>User Experience</h3>
+                                        <div class="j-tab-content">
+                                            <p>Building a website that offers the best user experience should be your
+                                                primary goal. Rely on all involved from the beginning to get the best
+                                                ideas from a variety of perspectives. More diverse perspectives mean
+                                                a much better website.</p>
+                                        </div>
+                                        <h3>Wireframing</h3>
+                                        <div class="j-tab-content">
+                                            <p>Wireframing can serve as an excellent foundation allowing you to
+                                                establish the information hierarchy, architecture, and imagery of your
+                                                website.it helps you to save money and time and focuses on the path to
+                                                redesign for long run.</p>
+                                        </div>
+                                        <h3>Branding</h3>
+                                        <div class="j-tab-content">
+                                            <p>Make sure that everything you redesign should be consistent and showcase
+                                                your company's brand vision.</p>
+                                        </div>
+                                        <h3>Optimize SEO</h3>
+                                        <div class="j-tab-content">
+                                            <p>Having a good SEO strategy is very important if you want visitors to come
+                                                to your site through search engines and increase leads, conversions and
+                                                sales.</p>
+                                        </div>
+
+                                    </div>
+                                    <!-- /Bootstrap Accordion -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="clear-fix"></div>
+
+
+    <div class="band-svg-content pb1">
+        <div class="bg-band bottom-band">
+            <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                                    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                                    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+                </svg>
+                <div class="container-fluid full-wrapper">
+                    <div class="band">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 site2-head">
+                                    <h2 class="white pb1">*Stanford Guidelines for Web Credibility</h2>
+                                    <p class="band-para">As per " Stanford Guidelines for Web Credibility " the
+                                        researchers found out that people quickly evaluate a site by visual design
+                                        alone. When designing your site, pay attention to layout, typography, images,
+                                        consistency
+                                        issues, and more.....The visual design should match the site's purpose.</p>
+                                    <center>
+                                        <div class="allbtn">
+                                            <a href="#stanford-credebility" class="button margin"
+                                                aria-label="Stanford Guidelines for Web Credibility">Learn More ➞</a>
+                                        </div>
+                                        <!-- Modal -->
+                                        <div id="stanford-credebility" class="testimonials-overlay">
+                                            <div class="window-popup">
+                                                <a class="testimonials-close" href="#"><i
+                                                        class="fas fa-times-circle"></i></a>
+                                                <iframe
+                                                    src="https://credibility.stanford.edu/guidelines/index.html"></iframe>
+                                            </div>
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="portfolio"></a>
+    <div class="test-overlay test-sample">
+
+        <div class="bg-svg bg-svg-ch">
+            <div class="overlay"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                                        c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                                        c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+            <div class="site2-head pb3 rpt3">
+                <h2>Our Portfolio</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="sky-tabs sky-tabs-pos-top-left sky-tabs-anim-flip sky-tabs-response-to-icons">
+                        <input type="radio" name="sky-tabs" checked id="sky-tab1" class="sky-tab-content-1">
+                        <label for="sky-tab1"><span><span><i class="icon-bolt"></i>Mobile</span></span></label>
+
+                        <input type="radio" name="sky-tabs" id="sky-tab2" class="sky-tab-content-2">
+                        <label for="sky-tab2"><span><span><i class="icon-picture"></i>Website</span></span></label>
+
+                        <input type="radio" name="sky-tabs" id="sky-tab3" class="sky-tab-content-3">
+                        <label for="sky-tab3"><span><span><i class="icon-cogs"></i>Landing Page</span></span></label>
+
+                        <input type="radio" name="sky-tabs" id="sky-tab4" class="sky-tab-content-4">
+                        <label for="sky-tab4"><span><span><i class="icon-globe"></i>E-Commerce</span></span></label>
+
+                        <input type="radio" name="sky-tabs" id="sky-tab5" class="sky-tab-content-5">
+                        <label for="sky-tab5"><span><span><i class="icon-globe"></i>E-Mail</span></span></label>
+
+                        <input type="radio" name="sky-tabs" id="sky-tab6" class="sky-tab-content-6">
+                        <label for="sky-tab6"><span><span><i class="icon-globe"></i>Banners</span></span></label>
+
+                        <input type="radio" name="sky-tabs" id="sky-tab7" class="sky-tab-content-7">
+                        <label for="sky-tab7"><span><span><i class="icon-globe"></i>Logos</span></span></label>
+
+
+                        <label class="switcher"><span><span><a href="#"><i
+                                            class="icon-reorder"></i>Tabs</a></span></span></label>
+
+                        <ul>
+                            <li class="sky-tab-content-1">
+                                <div class="typography">
+
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/mob7"> <img
+                                                        src=" https://nectarspot.com/images/rsz_mb-3.png"
+                                                        alt="Media Temple" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/mob8"><img
+                                                        src="https://nectarspot.com/images/kpharmacy.png"
+                                                        alt="kpharmacy" /></a>
+                                                <div class="img-shadow-1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/mob9"><img
+                                                        src="https://nectarspot.com/images/kpharm2.png"
+                                                        alt="kpharm2" /></a>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started ➞</a>
+                                        </div>
+                                    </center>
+                                </div>
+
+                            </li>
+
+                            <li class="sky-tab-content-2">
+                                <div class="typography">
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a target="blank"
+                                                    href="https://nectarspot.com/design-portfolio/web10"><img
+                                                        src=" https://nectarspot.com/images/bio-one.png"
+                                                        alt="Media Temple" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/web7"><img
+                                                        src="https://nectarspot.com/images/near-u.png"
+                                                        alt="kpharmacy" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/web8"><img
+                                                        src="https://nectarspot.com/images/bor.png" alt="kpharm2" /></a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started <i
+                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                        </div>
+                                    </center>
+                                </div>
+                            </li>
+
+                            <li class="sky-tab-content-3">
+                                <div class="typography">
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a target="blank"
+                                                    href="https://nectarspot.com/design-portfolio/land"><img
+                                                        src="https://nectarspot.com/images/ce8ec567704567.5b462831c8ac2.jpg"
+                                                        alt="Media Temple" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/land2"><img
+                                                        src="https://nectarspot.com/images/screencapture-kasturiwellness-ReclaimYourYouth-2018-09-10-14_06_04.png"
+                                                        alt="kpharmacy" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/land9"><img
+                                                        src="images/palm-leaf-2.png" alt="palmleaf" /></a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started <i
+                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                        </div>
+                                    </center>
+                                </div>
+                            </li>
+
+                            <li class="sky-tab-content-4">
+                                <div class="typography">
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a target="blank"
+                                                    href="https://nectarspot.com/design-portfolio/comm"><img
+                                                        src="https://nectarspot.com/images/kankatala.png"
+                                                        alt="Media Temple" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/comm12"><img
+                                                        src="images/value-pet-meds.png" alt="vpm" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/comm4"><img
+                                                        src="https://nectarspot.com/images/25-9%20beyond.png"
+                                                        alt="kpharm2" /></a>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started <i
+                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                        </div>
+                                    </center>
+                                </div>
+                            </li>
+
+                            <li class="sky-tab-content-5">
+                                <div class="typography">
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a target="blank"
+                                                    href="https://nectarspot.com/design-portfolio/email"><img
+                                                        src="https://nectarspot.com/images/beyond.jpg"
+                                                        alt="Media Temple" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/email1"><img
+                                                        src="https://nectarspot.com/images/jon-2.png"
+                                                        alt="kpharmacy" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/email3"><img
+                                                        src="https://nectarspot.com/images/cyber.jpg"
+                                                        alt="kpharm2" /></a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started <i
+                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                        </div>
+                                    </center>
+                                </div>
+                            </li>
+
+                            <li class="sky-tab-content-6">
+                                <div class="typography">
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a target="blank"
+                                                    href="https://nectarspot.com/design-portfolio/ban1"><img
+                                                        src="https://nectarspot.com/images/klocal.jpg"
+                                                        alt="Media Temple" /></a>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/ban2"><img
+                                                        src="https://nectarspot.com/images/morelocal.jpg"
+                                                        alt="kpharmacy" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow">
+                                                <a href="https://nectarspot.com/design-portfolio/ban3"><img
+                                                        src="https://nectarspot.com/images/locadeal.jpg"
+                                                        alt="kpharm2" /></a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started <i
+                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                        </div>
+                                    </center>
+                                </div>
+                            </li>
+
+                            <li class="sky-tab-content-7">
+                                <div class="typography">
+                                    <div class="col-lg-12 pt2">
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow back-white nearu">
+                                                <a target="blank"
+                                                    href="https://nectarspot.com/design-portfolio/logo"><img
+                                                        src="https://nectarspot.com/images/nearu.png"
+                                                        alt="Media Temple" /></a>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow back-white">
+                                                <a href="https://nectarspot.com/design-portfolio/logo2"><img
+                                                        src="https://nectarspot.com/images/kasthuri-law-logo.png"
+                                                        alt="kpharmacy" /></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="img-shadow-1 overflow back-white">
+                                                <a href="https://nectarspot.com/design-portfolio/logo3"><img
+                                                        src="https://nectarspot.com/images/bgadvisor-logo.png"
+                                                        alt="kpharm2" /></a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <center>
+                                        <div class="bord">
+                                            <a href="#get-started" aria-label="Get Started"
+                                                class="test-btn dis-block">Get Started <i
+                                                    class="fas fa-chevron-circle-right learn"></i></a>
+                                        </div>
+                                    </center>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+                            c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+                            c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <a name="download-ebook"></a>
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted) {window.location='https://nectarspot.com/thankyou';}"></iframe>
+    <div class="nwform">
+        <div class="container" id="mlb2-1556032">
+            <form action="https://app.getresponse.com/add_subscriber.html" method="post" target="hidden_iframe"
+                onsubmit="submitted=true;">
+                <div>
+                    <h2 class="nwform-head">Download E-Book for Principles of Mobile Site Design: Delight Users & Drive
+                        Conversions </h2>
+                </div>
+                <div class="frm2div"> <input type="text" placeholder="Name" name="name" required>
+                    <input type="email" placeholder="Email" class="form-mar" name="email" required>
+                    <!-- List token -->
+                    <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+                    <input type="hidden" name="campaign_token" value="z9Nic" />
+                    <!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+                    <input type="hidden" name="start_day" value="0" />
+                    <input type="submit" value="Submit" class="submit">
+
+                    <input type="hidden" name="b_faf9cac71b7884aa7e5578d37_24ca84123b" tabindex="-1" value="">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="clear-fix"></div>
+    <!-- <div class="stories-band background-white">
+                                <div class="site2 pb3">
+                                    <center>
+                                        <h2>Our Success Stories</h2>
+                                    </center> <a href="#diagonal" aria-label="Plan" class="suc-p"> <i
+                                            class="fas fa-caret-down down-arrow"></i></a>
+                                </div>
+                            </div> -->
+    <a name="diagonal" class="mob-mob-p-frm"></a>
+    <section>
+        <section class="succs bg-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+            </svg>
+            <div class="container cont2">
+
+                <div class="row animated zoomInLeft delay-4s">
+                    <div class="site2-head pb3">
+                        <h2>Our Success Stories</h2>
+                        <div id="slider-container">
+                            <div id="slider-scroller">
+                                <div class="slider-item">
+                                    <!--<img src="images/bor-logo.webp" />-->
+                                    <picture>
+                                        <source srcset="images/bor-logo.webp" type="image/webp">
+                                        <source srcset="images/bor-logo.png" type="image/png">
+                                        <img src="images/bor-logo.png" />
+                                    </picture>
+
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/nearu-logo.webp" />-->
+                                    <picture>
+                                        <source srcset="images/nearu-logo.webp" type="image/webp">
+                                        <source srcset="images/nearu-logo.png" type="image/png">
+                                        <img src="images/nearu-logo.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/bg-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/bg-black.webp" type="image/webp">
+                                        <source srcset="images/bg-black.png" type="image/png">
+                                        <img src="images/bg-black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/delphi-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/delphi-black.webp" type="image/webp">
+                                        <source srcset="images/delphi-black.png" type="image/png">
+                                        <img src="images/delphi-black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/hslogo--black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/hslogo--black.webp" type="image/webp">
+                                        <source srcset="images/hslogo--black.png" type="image/png">
+                                        <img src="images/hslogo--black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/kasturi-law-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/kasturi-law-black.webp" type="image/webp">
+                                        <source srcset="images/kasturi-law-black.png" type="image/png">
+                                        <img src="images/kasturi-law-black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/palmleaf-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/palmleaf-black.webp" type="image/webp">
+                                        <source srcset="images/palmleaf-black.png" type="image/png">
+                                        <img src="images/palmleaf-black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/solar-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/solar-black.webp" type="image/webp">
+                                        <source srcset="images/solar-black.png" type="image/png">
+                                        <img src="images/solar-black.png" />
+                                    </picture>
+
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/submit-ful-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/submit-ful-black.webp" type="image/webp">
+                                        <source srcset="images/submit-ful-black.png" type="image/png">
+                                        <img src="images/submit-ful-black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/art-black.webp" />-->
+                                    <picture>
+                                        <source srcset="images/art-black.webp" type="image/webp">
+                                        <source srcset="images/art-black.png" type="image/png">
+                                        <img src="images/art-black.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!--<img src="images/kmart.webp" />-->
+                                    <picture>
+                                        <source srcset="images/kmart.webp" type="image/webp">
+                                        <source srcset="images/kmart.png" type="image/png">
+                                        <img src="images/kmart.png" />
+                                    </picture>
+                                </div>
+                                <div class="slider-item">
+                                    <!-- <img src="images/logo-header-curcumin.webp" /> -->
+                                    <picture>
+                                        <source srcset="images/logo-header-curcumin.webp" type="image/webp"
+                                            class="grayscale">
+                                        <source srcset="images/logo-header-curcumin.png" type="image/png"
+                                            class="grayscale">
+                                        <img src="images/logo-header-curcumin.png" class="grayscale" />
+                                    </picture>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+        </section> <svg width="100%" preserveaspectratio="none" viewbox="0 0 1440 160" class="section-diagonal">
+            <polygon points="0 0 1440 160 0 160 0 0"></polygon>
+        </svg>
+    </section>
+    <div class="container desk pt3 pb3 white-bg" id="cont3">
+        <div class="row">
+            <div class="col-lg-12 column-reverse align-center site2-head">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <h2 class="cn2-head main-cn2-head txt-left mob-pt2">We Take Pride in Our Work (100% Satisfaction
+                        Guaranteed) </h2>
+                    <p class="satis-p pt1">The redesign process involves changing more or less the structure of the site
+                        to get a better performance.If your website is gaining less traffic or sales then your site must
+                        need to redesign.NectarSpot team will assure delivering
+                        fast and mobile friendly website reaching a much broader audience.</p>
+                    <center>
+                        <div class="strbtn">
+                            <a href="#get-started" aria-label="Get Started"> <button class="con3-btn mob-center">Get
+                                    Started ➞</button> </a>
+                            <a href="#pricing" aria-label="Learn More"> <button
+                                    class="con3-btn margin mob-center">Pricing ➞</button> </a>
+                            <!-- Modal -->
+                            <div id="pricing" class="testimonials-overlay">
+                                <div class="window-popup height-scroll">
+                                    <a class="testimonials-close" href="#"><i class="fas fa-times-circle"></i></a>
+                                    <div class="row w-95 site2-head">
+                                        <h2>Web & Mobile Redesign And Development</h2>
+                                        <h3 class="sub-head">Responsive Website Packages</h3>
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 full-wrapper">
+
+                                            <div class="pricing-bg">
+
+                                                <div class="col-md-4">
+                                                    <div class="pricing-box start-up">
+                                                        <div class="pricing-top">
+                                                            <h3>Silver</h3>
+                                                            <p>Great for single-service companies or one-page sites.</p>
+                                                        </div>
+                                                        <div class="price">
+                                                            <h3>$199</h3>
+                                                            <p>per month</p>
+                                                        </div>
+                                                        <div class="pricing-features">
+                                                            <ul>
+                                                                <li>Starting Pages: <b>1-5</b></li>
+                                                                <li>Fast Page Speed: <b>Yes</b></li>
+                                                                <li>Site Analysis: <b>Yes</b></li>
+                                                                <li>Mobile Friendly: <b>Yes</b></li>
+                                                                <li>Stock Images: <b>Yes</b></li>
+                                                                <li>Hosting: <b>Amazon/Google</b></li>
+                                                                <li>Domain: <b>Nectarspot/Client</b></li>
+                                                                <li>Site Backup: <b>Yes</b></li>
+                                                                <li>Blog: <b>Yes</b></li>
+                                                                <li>SEO Tools: <b>Yes</b></li>
+                                                                <li>SEO Consulting: <b>1 Hour</b></li>
+                                                                <li>Customer Reviews: <b>No</b></li>
+                                                                <li>Design Revisions: <b>1</b></li>
+                                                                <li>Included Monthly Updates: <b>1</b></li>
+                                                                <li>Add monthly Updates: <b>$150/hr</b></li>
+                                                                <li>Ecommerce Features: <b>No</b></li>
+                                                                <li class="setup">Setup Fee: <span
+                                                                        class="setup-price">$499</span>
+                                                                    <br><span class="setup-time">12-month
+                                                                        agreement</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="pricing-button"> <a href="/start"
+                                                                target="_blank">START NOW</a> </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="pricing-box price-highlight">
+                                                        <div class="pricing-top expansion">
+                                                            <h3>GOLD</h3>
+                                                            <p>For multiple services or locations.</p>
+                                                        </div>
+                                                        <div class="price">
+                                                            <h3>$299</h3>
+                                                            <p>per month</p>
+                                                        </div>
+                                                        <div class="pricing-features">
+                                                            <ul>
+                                                                <li>Starting Pages: <b>6-10</b></li>
+                                                                <li>Fast Page Speed: <b>Yes</b></li>
+                                                                <li>Site Analysis: <b>Yes</b></li>
+                                                                <li>Mobile Friendly: <b>Yes</b></li>
+                                                                <li>Stock Images: <b>Yes</b></li>
+                                                                <li>Hosting: <b>Amazon/Google</b></li>
+                                                                <li>Domain: <b>Nectarspot/Client</b></li>
+                                                                <li>Site Backup: <b>Yes</b></li>
+                                                                <li>Blog: <b>Yes</b></li>
+                                                                <li>SEO Tools: <b>Yes</b></li>
+                                                                <li>SEO Consulting: <b>1 Hour</b></li>
+                                                                <li>Customer Reviews: <b>Yes</b></li>
+                                                                <li>Design Revisions: <b>2</b></li>
+                                                                <li>Included Monthly Updates: <b>1</b></li>
+                                                                <li>Add monthly Updates: <b>$150/hr</b></li>
+                                                                <li>Ecommerce Features: <b>No</b></li>
+                                                                <li class="setup">Setup Fee: <span
+                                                                        class="setup-price">$699</span>
+                                                                    <br><span class="setup-time">12-month
+                                                                        agreement</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="pricing-button"> <a href=" /start"
+                                                                target="_blank">START NOW</a> </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="pricing-box growth">
+                                                        <div class="pricing-top">
+                                                            <h3>PLATINUM</h3>
+                                                            <p>Great for sites with a lot of existing content.</p>
+                                                        </div>
+                                                        <div class="price">
+                                                            <h3>$399</h3>
+                                                            <p>per month</p>
+                                                        </div>
+                                                        <div class="pricing-features">
+                                                            <ul>
+                                                                <li>Starting Pages: <b>11-20</b></li>
+                                                                <li>Fast Page Speed: <b>Yes</b></li>
+                                                                <li>Site Analysis: <b>Yes</b></li>
+                                                                <li>Mobile Friendly: <b>Yes</b></li>
+                                                                <li>Stock Images: <b>Yes</b></li>
+                                                                <li>Hosting: <b>Amazon/Google</b></li>
+                                                                <li>Domain: <b>Nectarspot/Client</b></li>
+                                                                <li>Site Backup: <b>Yes</b></li>
+                                                                <li>Blog: <b>Yes</b></li>
+                                                                <li>SEO Tools: <b>Yes</b></li>
+                                                                <li>SEO Consulting: <b>2 Hour</b></li>
+                                                                <li>Customer Reviews: <b>Yes</b></li>
+                                                                <li>Design Revisions: <b>3</b></li>
+                                                                <li>Included Monthly Updates: <b>2</b></li>
+                                                                <li>Add monthly Updates: <b>$150/hr</b></li>
+                                                                <li>Ecommerce Features: <b>No</b></li>
+                                                                <li class="setup">Setup Fee: <span
+                                                                        class="setup-price">$999</span>
+                                                                    <br><span class="setup-time">12-month
+                                                                        agreement</span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="pricing-button"> <a href="/start"
+                                                                target="_blank">START NOW</a> </div>
+                                                    </div>
+                                                </div>
+                                                <div class="clear-fix"></div>
+                                                <div class="pricing-cap">
+                                                    <p class="notes">Note : After 12 month agreement, the contract moves
+                                                        to <a href="https://nectarspot.com/pricing/#support"
+                                                            target="_blank"><u>support</u></a> phase (silver package at
+                                                        50% discount rate) automatically until and unless stated in the
+                                                        contract.</p>
+                                                    <p>*Websites sold in conjunction with SEO/SEM Consulting may take up
+                                                        to 4 weeks for our team to complete.</p>
+                                                </div>
+                                                <a class="testimonials-close2" href="#"><i
+                                                        class="fas fa-times-circle"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+                <div class="mt05 col-lg-4 col-md-4 col-sm-12 col-xs-12 res-full-wrapper">
+                    <h2 class="cn2-head res-cn2-head pt1 pb1">We Take Pride in Our Work (100% Satisfaction Guaranteed)
+                    </h2>
+                    <img src="images/NS-partners.png" width="1280" height="1280" layout="responsive" class="orimg"
+                        alt="responsive">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="band-svg-content pb1">
+        <div class="bg-band bottom-band">
+            <div class="overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                                    c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                                    c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+                </svg>
+                <div class="container-fluid full-wrapper">
+                    <div class="band">
+                        <div class="container container2">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <center>
+                                        <h4 class="nwbndtxt default">Download Web and Mobile App Launch Checklist </h4>
+                                    </center>
+                                    <center>
+                                        <div class="allbtn">
+                                            <a href="https://nectarspot.com/downloads/nectarspot-web-dev-checklist-2019.pdf"
+                                                target="_blank" class="button margin" aria-label="Download">Download<i
+                                                    class="fas fa-download"></i></a>
+                                        </div>
+                                        <!-- Modal -->
+                                        <!-- <div id="checklist" class="testimonials-overlay">
+                                            <div class="window-popup">
+                                                <a class="testimonials-close" href="#"><i class="fas fa-times-circle"></i></a>
+                                                <iframe src="https://nectarspot.com/downloads/nectarspot-web-dev-checklist-2019.pdf"></iframe>
+                                            </div>
+                                        </div> -->
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted) {window.location='https://nectarspot.com/thankyou';}"></iframe>
+
+    <a name="get-started"></a>
+    <div class="form2 pb3 background-white" id="scroll-to">
+        <div class="scont" id="sign-up">
+            <div id="mlb2-1536290">
+                <form action="https://app.getresponse.com/add_subscriber.html" method="post"
+                    class="validate form2-validate" target="hidden_iframe" onsubmit="submitted=true;">
+                    <center>
+                        <h4 class="form2-head sign-head pb1 pt1">Get Started</h4>
+                    </center>
+                    <div class="form2-div">
+
+                        <input type="text" name="name" placeholder="Name" required class="fill ">
+
+                        <input type="email" name="email" placeholder="Email" required class="fill form-mar">
+
+                        <input type="text" placeholder="Phone (Optional)" name="custom_phone_number">
+
+                        <input type="text" placeholder="Best Time to Call (Optional)" class="fill form-mar"
+                            name="custom_best_time_to_call">
+
+                        <input type="text" placeholder="Website URL (Optional)" name="custom_website_url" class="fill">
+
+                        <input type="text" placeholder="Promo Code (Optional)" class="fill form-mar"
+                            name="custom_promo_code">
+                    </div>
+                    <center>
+                        <!-- List token -->
+                        <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+                        <input type="hidden" name="campaign_token" value="z9CZW" />
+                        <!-- Thank you page (optional) -->
+                        <input type="hidden" name="thankyou_url" value="https://nectarspot.com/thankyou" />
+                        <!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+                        <input type="hidden" name="start_day" value="0" />
+                        <!-- Forward form data to your page (optional) -->
+                        <input type="hidden" name="forward_data" value="post" />
+                        <input type="submit" value="Submit" class="submit2 sub2">
+                    </center>
+                    <!-- <input type="hidden" name="b_faf9cac71b7884aa7e5578d37_24ca84123b" tabindex="-1" value=""> -->
+
+                </form>
+            </div>
+        </div>
+        <div class="clear-fix"></div>
+    </div>
+
+    <div class="clear-fix"></div>
+    <!-- <div class="exit-popup">
+        
+        <div class="exit-popup-content"><span class="close-btn-popup">×</span>
+         <img src="images/redesign-ebook.jpg" alt="ebook">
+          <a href="#" class="contact-btn margin-auto">Download E-book <i class="fas fa-chevron-circle-right"></i></a> 
+        </div>
+      </div> -->
+
+    <div class="content">
+        <svg class="footer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+            <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+                c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+                c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+        </svg>
+        <div class="container1 border-bottom">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 con-row nect">
+                        <ul class="con-ul">
+                            <li>
+                                <a href="/" aria-label="Home Page" target="_blank">
+                                    <!--<img src="images/nectar.webp" width="184" height="80" class="nectar" alt="image">-->
+                                    <picture>
+                                        <!-- <source srcset="images/nectar.webp" type="image/webp">
+                                        <source srcset="images/nectar.png" type="image/png"> -->
+                                        <img src="images/new-ns-clear-logo.png" width="184" height="80" class="nectar"
+                                            alt="image">
+                                    </picture>
+                                </a>
+                            </li>
+                            <li>
+                                <p>NectarSpot Inc. is an integrated digital marketing agency specializing in Design &
+                                    Development of Web, Mobile & Voice Applications.
+                                    <br> We excel in providing Optimization, Automation, PPC & Analytics services to
+                                    high performing brands across industries.
+                                </p>
+                            </li>
+                        </ul>
+                        <p class="ress">50 S Main ST,STE 200,Naperville IL 60540</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 con-row service-foo">
+                        <h4>Useful Links</h4>
+                        <ul class="ser">
+
+                            <li><a href="#redesign-process">Process</a></li>
+
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+
+                            <li><a href="#get-started">Get Started</a></li>
+                            <li><a href="#download-ebook">Download E-Book</a></li>
+                            <li><a href="tel: +1 630 999 (7768)" aria-label="Call Us at +1 630 999 (7768)">Call: +1 630
+                                    999 SPOT (7768) </a></li>
+                            <li><a href="mailto:hello@nectarspot.com"
+                                    aria-label="Mail Us at mailto:hello@nectarspot.com">Email: hello@nectarspot.com </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 con-row service-foo">
+                        <h4>Other Services</h4>
+                        <ul class="ser">
+                            <li><a target="_blank" aria-label="Web/Mobile App Development"
+                                    href="/services-grid/web-and-mobile-app-development">Web/Mobile App Development</a>
+                            </li>
+                            <li><a target="_blank" aria-label="UX/UI Design" href="/services-grid/design-services">UX/UI
+                                    Design</a></li>
+                            <li><a target="_blank" aria-label="Paid Search (PPC) Management"
+                                    href="/services-grid/ppc">Paid Search (PPC) Management</a></li>
+                            <li><a target="_blank" aria-label="Conversion Rate Optimization"
+                                    href="/services-grid/conversion-rate-optimization">Conversion Rate Optimization</a>
+                            </li>
+                            <li><a target="_blank" aria-label="Email Services"
+                                    href="/services-grid/email-services">Email Services</a></li>
+                            <li><a target="_blank" aria-label="Automation Services"
+                                    href="/services-grid/marketing-automation">Automation Services</a></li>
+                            <li><a target="_blank" aria-label="Data Visualization"
+                                    href="/services-grid/data-visualization">Data Visualization</a></li>
+                            <li><a target="_blank" aria-label="Alexa Voice Services" href="/services-grid/voice">Alexa
+                                    Voice Services</a></li>
+                        </ul>
+
+                    </div>
+
+                    <script type="text/javascript">
+                        var submitted = false;
+                    </script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                        onload="if(submitted) {window.location='https://nectarspot.com/thankyou';}"></iframe>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 subscribe subscribe1" id="mlb2-1578712">
+                        <form action="https://app.getresponse.com/add_subscriber.html" method="post"
+                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                            target="hidden_iframe" onsubmit="submitted=true;">
+                            <h4 class="sign-head">Find How Your Site is Measured? </h4>
+                            <ul>
+                                <li class="email">
+                                    <input type="text" name="custom_website_url" placeholder="www.yourdomain.com"
+                                        required class="fill email-input">
+                                </li>
+                                <li>
+                                    <input type="email" name="email" placeholder="your email" required
+                                        class="fill email-input">
+                                </li>
+                                <li>
+                                    <!-- List token -->
+                                    <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+                                    <input type="hidden" name="campaign_token" value="z91ef" />
+                                    <!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+                                    <input type="hidden" name="start_day" value="0" />
+                                    <input type="submit" class="keep-btn submit" value="Send My Audit Report">
+                                    <input type="hidden" name="b_faf9cac71b7884aa7e5578d37_24ca84123b" tabindex="-1"
+                                        value="">
+
+                                </li>
+                                <li>
+                                    <a href="/NectarSpot-Brochure.pdf" target="_blank"
+                                        aria-label="Download Our Brochure">
+                                        <button type="button" class="down" aria-label="Download Our Brochure ">Download
+                                            Brochure <i class="fas fa-download"></i></button>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 right">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 copy"> Copyright © 2020 Website by <a
+                            href="https://nectarspot.com/" aria-label="Home Page" class="nect-link"> NectarSpot
+                            Marketing, Automation, and Design Company</a> </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 icons">
+                        <ul>
+                            <li><a href="https://www.facebook.com/NectarSpot/" target="_blank"
+                                    aria-label="Our FaceBook Page"><i class="fab fa-facebook-f face"></i></a> </li>
+                            <li><a href="https://twitter.com/nectarspot" target="_blank"
+                                    aria-label="Our Twitter Page"><i class="fab fa-twitter twi"></i></a></li>
+                            <li><a href="https://in.linkedin.com/company/nectarspot-marketing" target="_blank"
+                                    aria-label="Our LinkedIn Account"><i class="fab fa-linkedin-in link"></i></a></li>
+                            <li class="behance-li"><a href="https://www.behance.net/nectarspot" target="_blank"
+                                    aria-label="Our Behance Account"><i class="fab fa-behance behance"></i></a></li>
+                            <li><a href="https://github.com/nectarspot" target="_blank"
+                                    aria-label="Our GitHub Profile"><i class="fab fa-github git"></i></a></li>
+                            <li><a href="mailto:support@nectarspot.com" target="_blank"
+                                    aria-label="Mail Us at support@nectarspot.com"><i
+                                        class="fas fa-envelope google"></i></a></li>
+                            <li><a href="/"><i class="fas fa-home home" aria-label="Home Page"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="sticky-nav">
+    <ul>
+        <li><a   target="_blank" href="/" aria-label="Home Page"><img src="images/round-logo2.png"> </a></li>
+        <li><a href="tel:+1 6309997768" aria-label="Mail Us at +1 6309997768"> <i class="fas fa-phone foo-icon"></i> </a></li>
+        <li> <a href="mailto:hello@nectarspot.com" aria-label="Mail Us at hello@nectarspot.com"> <i class="fas fa-envelope foo-icon"></i> </a></li>
+    </ul>
+
+            
+            
+           
+
+       
+    </div>
+    <div class="clear-fix"></div> -->
+
+    <div id="bkgOverlay" class="backgroundOverlay"></div>
+
+
+    <div id="delayedPopup" class="delayedPopupWindow">
+        <a href="#" id="btnClose"><i class="fas fa-times-circle"></i></a>
+        <div class="formDescription">
+            <div class="row">
+                <div class="col-lg-12 align-center flex-direction full-wrapper">
+                    <div class="col-md-6  col-sm-12">
+                        <img src="images/redesign-ebook-2-resized.jpg" alt="ebook" class="redesign-img">
+                    </div>
+                    <div class="col-md-6 col-sm-12 t-align-center">
+                        <p class="ebook-text"><sup><i class="fas fa-quote-left"></i></sup> Design is not just what it
+                            looks like, It is about crafting solutions to real business. <sup><i
+                                    class="fas fa-quote-right"></i></sup></p>
+                        <p class="ebook-sub-text">This is the time! Redesign your website today!</p>
+                        <!-- <a href="https://www.thinkwithgoogle.com/_qs/documents/538/multi-screen-moblie-whitepaper_research-studies.pdf" target="_blank" aria-label="Download E-book" class="contact-btn margin-2auto">Download E-book <i class="fas fa-chevron-circle-right"></i></a> -->
+                        <div class="hide-form">
+
+
+                            <form id="mG61Hd"
+                                action=https://docs.google.com/forms/u/0/d/e/1FAIpQLScVTjWy0M2-0M7nnq2ssgeHj1Z7zbubfth7vq3E_YvlFT2OUA/formResponse
+                                accept-charset="utf-8" method="post" class="frmbg1 myform mb45">
+
+                                <div class="form-div ">
+                                    <input type="text" name="entry.1059965461" placeholder="Name" required="required">
+                                    <input type="email" name="entry.1591225470" placeholder="Email" required="required">
+                                    <button type="submit" value="Submit" class="contact-btn border-none">Submit
+                                        ➞</button>
+                                </div>
+
+
+                                <!-- <a href="https://www.thinkwithgoogle.com/_qs/documents/538/multi-screen-moblie-whitepaper_research-studies.pdf" target="_blank" aria-label="Download E-book"> -->
+                                <!-- <button type="submit" value="Submit"  class="contact-btn margin-2auto">Download E-book ➞</button> -->
+
+                                <!----<a href="https://www.thinkwithgoogle.com/_qs/documents/538/multi-screen-moblie-whitepaper_research-studies.pdf" target="_blank" aria-label="Download E-book" class="contact-btn margin-2auto">Download E-book <i class="fas fa-chevron-circle-right"></i></a> -->
+                            </form>
+                        </div>
+                        <div id="download-ebook">
+
+                            <a href="https://www.thinkwithgoogle.com/_qs/documents/538/multi-screen-moblie-whitepaper_research-studies.pdf"
+                                target="_blank" aria-label="Download E-book" class="contact-btn margin-2auto">Download
+                                E-book <i class="fas fa-chevron-circle-right"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#bkgOverlay").delay(7000).fadeIn(800);
+
+            $("#delayedPopup").delay(7000).fadeIn(800);
+
+
+            $("#btnClose").click(function (e) {
+                HideDialog();
+                e.preventDefault();
+            });
+
+            $("#bkgOverlay").click(function (e) {
+                HideDialog();
+                e.preventDefault();
+            });
+
+
+
+        });
+
+        function HideDialog() {
+            $("#bkgOverlay").fadeOut(400);
+            $("#delayedPopup").fadeOut(300);
+        }
+
+        $(".strategy-plan-trigger").click(function () {
+            $("#strategy-plan-div").slideToggle("slow");
+            $("#design-div").hide();
+            $("#test-div").hide();
+        });
+        $(".design-trigger").click(function () {
+            $("#design-div").slideToggle("slow");
+            $("#strategy-plan-div").hide();
+            $("#test-div").hide();
+        });
+        $(".test-trigger").click(function () {
+            $("#test-div").slideToggle("slow");
+            $("#strategy-plan-div").hide();
+            $("#design-div").hide();
+        });
+        $(".contact-details").click(function () {
+            $(".contact-info").slideToggle("slow");
+        });
+        var vid = document.getElementById("myVideo");
+
+        function playVid() {
+            vid.play();
+        }
+
+        function pauseVid() {
+            vid.pause();
+        }
+        $(document).ready(function () {
+            $(".toggle-btn").click(function () {
+
+                var $this = $(this);
+                $this.toggleClass('SeeMore2');
+                if ($this.hasClass('SeeMore2')) {
+                    $this.text('Find How Your Site is Measured ?');
+                    $(".toggle-btn").addClass("reg-btn");
+                    $(".toggle-btn").removeClass("close-btn");
+                } else {
+                    $this.text('×');
+                    $(".toggle-btn").removeClass("reg-btn");
+                    $(".toggle-btn").addClass("close-btn")
+                }
+                $(".toggle-div").toggle();
+            });
+        });
+
+        function slideSlider() {
+            $("#slider-scroller").css({ "left": "0%", "transition": "all 0s linear" });
+            $("#slider-scroller").css({ "left": String(parseInt($("#slider-scroller").css("left")) - 500) + "px", "transition": "all 5s linear" });
+            setTimeout(function () { moveSliderItem() }, 2635);
+        }
+
+        function moveSliderItem() {
+            $("#slider-scroller div").first().detach().appendTo($("#slider-scroller"));
+            slideSlider();
+        }
+
+        slideSlider();
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+
+
+
+        $(function () {
+            $("#tabs").tabs();
+        });
+
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+        var carousel = document.querySelector('.carousel');
+        var container = carousel.querySelector('.carousel-container');
+        var prevBtn = carousel.querySelector('.carousel-prev');
+        var nextBtn = carousel.querySelector('.carousel-next');
+        var pagination = carousel.querySelector('.carousel-pagination');
+        var bullets = [].slice.call(carousel.querySelectorAll('.carousel-bullet'));
+        var totalItems = container.querySelectorAll('.carousel-item').length;
+        var percent = (100 / totalItems);
+        var currentIndex = 0;
+
+        function next() {
+            slideTo(currentIndex + 1);
+        }
+
+        function prev() {
+            slideTo(currentIndex - 1);
+        }
+
+        var vid = document.getElementById("video_background");
+        function enableMute() {
+            vid.muted = false;
+            vid.pause() = false;
+        }
+
+        function slideTo(index) {
+            index = index < 0 ? totalItems - 1 : index >= totalItems ? 0 : index;
+            container.style.WebkitTransform = container.style.transform = 'translate(-' + (index * percent) + '%, 0)';
+            bullets[currentIndex].classList.remove('active-bullet');
+            bullets[index].classList.add('active-bullet');
+            currentIndex = index;
+        }
+
+        bullets[currentIndex].classList.add('active-bullet');
+        prevBtn.addEventListener('click', prev, false);
+        nextBtn.addEventListener('click', next, false);
+
+        pagination.addEventListener('click', function (e) {
+            var index = bullets.indexOf(e.target);
+            if (index !== -1 && index !== currentIndex) {
+                slideTo(index);
+            }
+        }, false);
+
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+
+        const images = [{
+            id: 'f0heeiu-Ec0',
+            caption: 'Flower #1'
+        }, {
+            id: '5lRxNLHfZOY',
+            caption: 'Flower #2'
+        }, {
+            id: 'aolmXcUxr7Y',
+            caption: 'Flower #3'
+        }, {
+            id: 'TORI6YW1fHE',
+            caption: 'Flower #4'
+        }, {
+            id: '7NBO76G5JsE',
+            caption: 'Flower #5'
+        }];
+
+        const build = () => {
+            const url = 'https://source.unsplash.com';
+            const [width, height] = [200, 200];
+            return images.reduce((html, image) => {
+                image.thumb = `${url}/${image.id}/${width}x${height}`;
+                image.url = `${url}/${image.id}`;
+                return html +=
+                    `<a href="#" class="carousel-item">` +
+                    `<img ` +
+                    `src="${image.thumb}" ` +
+                    `class="materialboxed" ` +
+                    `width="${width}" ` +
+                    `data-caption="${image.caption}" ` +
+                    `/>` +
+                    `</a>`;
+
+            }, '');
+        };
+        const carouselOptions = {
+            duration: 100,
+            dist: -50,
+            spacing: 2
+        };
+
+        const materialBoxOptions = {
+            inDuration: 150,
+            outDuration: 150
+        };
+    </script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v4.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="279385665518627">
+    </div>
+
+</body>
+
+</html>
